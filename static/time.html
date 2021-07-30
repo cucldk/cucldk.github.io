@@ -1,0 +1,22 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link href="fliptimer.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div class="dowebok">
+	<div class="hours"></div>
+	<div class="minutes"></div>
+	<div class="seconds"></div>
+</div>
+<script src="jquery-1.11.3.min.js"></script>
+<script src="jquery.fliptimer.js"></script>
+<script>
+$(function(){
+	$('.dowebok').flipTimer({
+		seconds: true
+	});
+});
+</script>
+</body>
+</html>
